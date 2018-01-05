@@ -29,7 +29,7 @@ public class Value : MonoBehaviour
         {
            GetComponentInChildren<Scrollbar>().value = 1;
         }
-        if (dropdown.value > 0.5)
+        if (value > 0.5)
         {
             GetComponentInChildren<Scrollbar>().value = 0;
         }
